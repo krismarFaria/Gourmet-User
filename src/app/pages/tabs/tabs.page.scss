@@ -1,0 +1,16 @@
+ion-tab-button {
+    --color-selected: var(--ion-color-danger);
+    --color: var(--ion-color-medium);
+}
+
+ion-tab-bar{
+   --background: var(--ion-color-secondary-shade);
+    bottom: 20px;
+    position: relative;
+    border-style: none;    
+    border-radius: 15px;
+    width: 85%;
+    transform: translate(10%, 10%);
+    
+    
+}

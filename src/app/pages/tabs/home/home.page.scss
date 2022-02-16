@@ -1,0 +1,26 @@
+ion-toolbar{
+    padding-left: 30px;
+}
+ion-searchbar{
+    --box-shadow: none;
+   --border-radius: 20px;
+   --background: #f3f3f3;
+  }
+ 
+.searchbar-content{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ion-avatar{
+    position: relative;
+    right: 15px;
+    width: 35px;
+    height: 35px;
+  }
+
+  img{
+      width: 120px;
+      height: auto;
+  }

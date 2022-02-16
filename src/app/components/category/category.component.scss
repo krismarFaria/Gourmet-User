@@ -1,0 +1,28 @@
+
+ion-card{
+    border-radius: 20px;
+    width: 80%;
+    height: 150px;
+}
+
+
+span{
+    position: relative;
+    bottom: 8px;
+    padding: 5px;
+    font-weight: bold;
+}
+    .card-slide{
+        font-weight: bold;
+        color: var(--ion-color-light);
+        width: 150px;
+        height: 40px;
+        background: crimson;
+    }
+
+
+  .icon{
+      padding-top: 7px;
+      width: 25px;
+      height: 30px;
+  }
