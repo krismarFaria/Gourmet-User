@@ -1,6 +1,6 @@
 
 ion-card{
-    background-color: var(--ion-color-primary);
+    padding-right: 20px;
     position: relative;
     left: 7px;
     border-radius: 15px;
@@ -22,14 +22,19 @@ ion-card{
 
 .btn{
     ion-card{
-        background-color: aliceblue;
-        width: 80px;
-        height: 80px;
+        border-radius: 100%;
+        background-color: var(--ion-color-secondary);
+        width: 40px;
+        height: 40px;
+        
+    }
+
+    ion-icon{
+        font-size: 25px;
+        color: var(--ion-color-light);
+        position: relative;
+        left: 5px;
+        top: 10px;
     }
 }
 
-ion-button{
-    --border-radius: 15px;
-   
-  
-}
