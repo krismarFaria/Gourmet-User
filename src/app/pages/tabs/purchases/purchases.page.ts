@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-purchases',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./purchases.page.scss'],
 })
 export class PurchasesPage implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit() {

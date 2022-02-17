@@ -26,6 +26,14 @@ const routes: Routes = [
         path: 'profile',
         loadChildren: () => import('./profile/profile.module').then( m => m.ProfilePageModule)
       },
+      {
+        path: 'purchases',
+        loadChildren: () => import('./purchases/purchases.module').then( m => m.PurchasesPageModule)
+      },
+      {
+        path: 'cart',
+        loadChildren: () => import('./cart/cart.module').then( m => m.CartPageModule)
+      },
     ]
   },
   {
@@ -44,6 +52,10 @@ const routes: Routes = [
   {
     path: 'purchases',
     loadChildren: () => import('./purchases/purchases.module').then( m => m.PurchasesPageModule)
+  },
+  {
+    path: 'cart',
+    loadChildren: () => import('./cart/cart.module').then( m => m.CartPageModule)
   },
 ];
 
